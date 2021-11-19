@@ -2,7 +2,7 @@
 	"name": "forkify-app",
 	"version": "1.0.0",
 	"description": "Recipe Application",
-	"main": "index.html",
+	"default": "index.html",
 	"scripts": {
 		"start": "parcel index.html",
 		"build": "parcel build index.html"
@@ -18,6 +18,8 @@
 	},
 	"homepage": "https://github.com/Geoff-Walker/forkify-app#readme",
 	"devDependencies": {
-		"parcel": "^2.0.1"
+		"@parcel/transformer-sass": "^2.0.1",
+		"parcel": "^2.0.1",
+		"sass": "^1.43.4"
 	}
 }
