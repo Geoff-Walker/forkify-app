@@ -1,0 +1,23 @@
+{
+	"name": "forkify-app",
+	"version": "1.0.0",
+	"description": "Recipe Application",
+	"main": "index.html",
+	"scripts": {
+		"start": "parcel index.html",
+		"build": "parcel build index.html"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Geoff-Walker/forkify-app.git"
+	},
+	"author": "Geoff Walker",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Geoff-Walker/forkify-app/issues"
+	},
+	"homepage": "https://github.com/Geoff-Walker/forkify-app#readme",
+	"devDependencies": {
+		"parcel": "^2.0.1"
+	}
+}
